@@ -42,11 +42,11 @@
     "nav_transparent": false,
     "nav_mobile": true,
     "nav_align": "right",
-    "nav_sign": true,
-    "nav_cart": true,
-    "nav_search": true,
+    "nav_sign": false,
+    "nav_cart": false,
+    "nav_search": false,
     "nav_search_light": false,
-    "nav_side": true,
+    "nav_side": false,
     "nav_side_light": false,
     "nav_side_bg": "assets/images/bg-nav-side.jpg",
     "nav_side_logo": "assets/images/logo.svg",
@@ -73,26 +73,6 @@
             "sub": {
                 "index-main.html": {
                     "name": "Main"
-                }
-            }
-        },
-        "gallery.html": {
-            "name": "Media",
-            "sub": {
-                "gallery.html": {
-                    "name": "Gallery 1 Column"
-                },
-                "gallery-2-col.html": {
-                    "name": "Gallery 2 Columns"
-                },
-                "gallery-3-col.html": {
-                    "name": "Gallery 3 Columns"
-                },
-                "videos.html": {
-                    "name": "Videos 1 Column"
-                },
-                "videos-2-col.html": {
-                    "name": "Videos 2 Columns"
                 }
             }
         }
@@ -235,9 +215,5 @@
         "social-group-manage.html": {
             "name": "Manage"
         }
-    },
-
-    "users": [],
-    "posts": [],
-    "shop": [],
+    }
 }

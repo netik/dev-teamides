@@ -64,11 +64,9 @@
     <nav class="nk-navbar nk-navbar-top{{ ' nk-navbar-sticky' if nav_sticky }}{{ ' nk-navbar-transparent' if nav_transparent }}{{ ' nk-navbar-autohide' if nav_autohide and nav_sticky }}{{ ' nk-navbar-light' if nav_light }}">
         <div class="container">
             <div class="nk-nav-table">
-                {% if nav_logo %}
-                <a href="{{ nav_logo_url }}" class="nk-nav-logo">
-                    <img src="{{ nav_logo_light if nav_light else nav_logo }}" alt="" width="{{ nav_logo_size }}">
-                </a>
-                {% endif %}
+              <div style="font-family: 'Marcellus SC', serif; font-size:18px;">
+                Team Ides
+              </div>
                 {% if navigation %}
                 <ul class="nk-nav nk-nav-{{ nav_align }} d-none d-lg-block" data-nav-mobile="#nk-nav-mobile">
                     {{ submenu(navigation) }}
