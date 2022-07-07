@@ -198,7 +198,7 @@
     "jquery-datetimepicker": "^2.5.20",
     "jquery-validation": "^1.19.0",
     "keymaster": "^1.6.2",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.23",
     "nanoscroller": "^0.8.7",
     "object-fit-images": "^3.2.4",
